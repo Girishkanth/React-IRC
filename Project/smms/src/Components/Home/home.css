@@ -1,0 +1,8 @@
+*{
+    background: url(./7-eleven-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home h1{
+    color: white;
+}
