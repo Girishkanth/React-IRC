@@ -1,8 +1,8 @@
 import React , { useState }from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './login.css';
+import './adminlogin.css';
 
-const Login  = () => {
+const AdminLogin  = () => {
   const nav=useNavigate()
   const[username, SetUsername] = useState('');
   const[password, SetPassword] = useState('');
@@ -15,19 +15,18 @@ const Login  = () => {
     else if(password === ''){
       alert('Password must be filled');
     }
-    else if(username==="sample"&&password==="sample"){
-       nav("/Home")
+    else if(username==="admin"&&password==="admin"){
+       nav("/dashboard")
     }
-   else if(username!=="sample" && password!=="sample"){
+   else if(username!=="admin" && password!=="admin"){
       nav("/Signup")
     }
   }
 
   return (
-    <body>
     <div className='wrap'>
       <form method='post'>
-        <h1>Login</h1>
+        <h1>Welcome Back Admin</h1>
         <div className="input-box">
           <input 
           type="text" 
@@ -52,16 +51,11 @@ const Login  = () => {
           <button type='submit' onClick={handleLogin}>Login</button>
           <br/>
         <div className='register2'>
-            <p>
-              Don't have an account?
-              <Link to='/Signup' className='links'> Signup </Link>
-              <Link to='/adminlogin' className='links'> Admin? </Link>
-            </p>
+            <p>Not an Admin?<Link to='/' className='links'> Customer </Link></p>
         </div>
       </form>
     </div>
-    </body>
   )
 }
 
-export default Login;
+export default AdminLogin;
