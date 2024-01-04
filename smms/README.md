@@ -15,9 +15,11 @@ The Supermarket Management System is designed to provide a convenient and effici
 
 ## Tech Stack
 
--Frontend : React JS.
--Navigation: React Router.
--UI Styling: CSS.
+ Frontend : React JS.
+ 
+ Navigation: React Router.
+ 
+ UI Styling: CSS.
 
 ## Features
 
