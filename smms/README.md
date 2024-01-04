@@ -25,7 +25,9 @@ The Supermarket Management System is designed to provide a convenient and effici
 - **Products Page**: View and shop products across various categories.
 - **Admin Dashboard**: Accessible after logging in as an admin, providing insights into product sales and more.
 - **Customer Login and Signup:** Provides functionality for customers to log in or sign up.
-- **Admin Login:** Includes a separate login page for administrators.
+  [A sample account with username "sample" and password "sample" is provided]
+- **Admin Login:** Includes a separate login page for administrators.  
+  [A sample account with username "admin" and password "admin" is provided]
 - **About Us:** Information about the project or company.
 - **Contact Us:** Contact information or a form to reach out.
 
