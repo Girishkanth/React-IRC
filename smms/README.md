@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Supermarket Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Supermarket Management System, a web application built with React for managing and shopping at a supermarket.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Usage](#usage)
+- [Features](#Features)
+- [ScreenShots](#ScreenShots)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+The Supermarket Management System is designed to provide a convenient and efficient platform for managing supermarket operations and facilitating a seamless shopping experience for users. The system includes features such as user authentication, product categories, a dashboard for administrators, and more.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Frontend : React JS
+-Navigation: React Router.
+-UI Styling: CSS.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Home Page**: Navigate through different sections of the application.
+- **Products Page**: View and shop products across various categories.
+- **Admin Dashboard**: Accessible after logging in as an admin, providing insights into product sales and more.
+- **Customer Login and Signup:** Provides functionality for customers to log in or sign up.
+- **Admin Login:** Includes a separate login page for administrators.
+- **Dashboard:** After successful admin login, redirects to a dashboard page.
+- **About Us:** Information about the project or company.
+- **Contact Us:** Contact information or a form to reach out.
 
-### `npm run build`
+ ## ScreenShots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 1.Home Page
+  ![Screenshot 2024-01-04 150441](https://github.com/Girishkanth/React-IRC/assets/117515881/3fa79a2b-613b-4819-8c7d-ea181b0eb510)
+  ![Screenshot 2024-01-04 150926](https://github.com/Girishkanth/React-IRC/assets/117515881/4302c246-39c7-47f7-8d34-eb8bb4028312)
+  ![Screenshot 2024-01-04 150942](https://github.com/Girishkanth/React-IRC/assets/117515881/79fd434a-7874-4713-89d7-91b9be9fcd7b)
